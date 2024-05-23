@@ -1,0 +1,54 @@
+@import url(./reset.css);
+:root{
+    --primary-color:#225747;
+    --primary-shade:#417863;
+    --link-hover:#69b598;
+    --secondary-color:#FCD445;
+}
+body{
+    font-family: "Roboto",sans-serif;
+}
+header{
+    width: 100%;
+}
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 180px;
+}
+.logo img{
+    width: 80%;
+    margin: auto;
+}
+ul,.rightnav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 8px 10px;
+}
+ul li a:hover,.active{
+    color: var(--link-hover);
+}
+select{
+    border: none;
+    color: var(--primary-color);
+}
+.login{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+  
+    border-radius: 20px;
+    padding: 10px 15px;
+    border:1px solid var(--primary-color);
+    font-weight: 600;
+}
