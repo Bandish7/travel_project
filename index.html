@@ -1,73 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel | Portfolio Project </title>
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel | Portfolio Project</title>
+    <link rel="stylesheet" href="./css/style.css" />
     <!-- Fontawesome Link -->
     <link
-        rel="stylesheet"
-        href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css"
-      >
-      <link
-        rel="stylesheet"
-        href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-thin.css"
-      >
-      <link
-        rel="stylesheet"
-        href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-solid.css"
-      >
-      <link
-        rel="stylesheet"
-        href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-regular.css"
-      >
-      <link
-        rel="stylesheet"
-        href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-light.css"
-      >
-      <!-- Fontawesome Link -->
-      <!-- Roboto Font Link -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-      <!-- Roboto Font Link -->
-      
-</head>
-<body>
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-thin.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-regular.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-light.css"
+    />
+    <!-- Fontawesome Link -->
+    <!-- Roboto Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Roboto Font Link -->
+  </head>
+
+  <body>
     <header>
-        <nav>
-            <div class="logo">
-                <img src="./images/logo.png" alt="">
-            </div>
-            <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">Featured Places</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Popular Destinations</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-            <div class="rightnav">
-              <div class="langsel">
-              <i class="fa-light fa-globe"></i> 
-                <select name="language" id="language">
-                    <option value="english">English</option>
-                    <option value="english">नेपाली</option>
-                    <option value="english">हिन्दी</option>
-                    <option value="english">日本語</option>
-                </select></div>
-                <div class="currency">
-                  <select name="cur">
-                    <option value="usd">USD</option>
-                    <option value="rupees">नेरु</option>
-                    <option value="indian">भारु</option>
-                    <option value="aus">AUD</option>
-                </select>
-                <button class="login">Sign In</button>
-                </div>
-            </div>
-        </nav>
+      <div class="hero">
+        <img src="./images/hero.svg" alt="">
+      </div>
+      <nav>
+        <div class="logo">
+          <img src="./images/logo.png" alt="" />
+        </div>
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Featured Places</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Popular Destinations</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="rightnav">
+          <div class="langsel">
+            <i class="fa-light fa-globe"></i>
+            <select name="language" id="language">
+              <option value="english">English</option>
+              <option value="english">नेपाली</option>
+              <option value="english">हिन्दी</option>
+              <option value="english">日本語</option>
+            </select>
+          </div>
+          <div class="currency">
+            <select name="cur">
+              <option value="usd">USD</option>
+              <option value="rupees">नेरु</option>
+              <option value="indian">भारु</option>
+              <option value="aus">AUD</option>
+            </select>
+            <button class="login">Sign In</button>
+          </div>
+        </div>
+      </nav>
+      <div class="headings">
+        <h1 class="mainheading">Travel the Kosher Way</h1>
+        <p class="subtitle">Find the best Kosher deal for your next trip</p>
+      </div>
+      <div class="searchbar">
+        <div class="location">
+          <i class="fa-sharp fa-solid fa-location-dot"></i>
+        </div>
+        <div class="search">
+          <input type="text" placeholder="Choose a location" />
+        </div>
+        <button class="searchbtn">
+          <i class="fa-sharp fa-regular fa-magnifying-glass"></i> Search
+        </button>
+      </div>
     </header>
-     
-</body>
+    <main>
+      <section class="featuredplace">
+        <div class="featuredhead">
+          <div class="featuredtitle">
+            <h2 class="sectionheadings">Our Features Places</h2>
+            <p class="sectionsub">
+              Favourite Destinations based on customer reviews
+            </p>
+          </div>
+          <div class="featuredcontrols">
+            <button class="explore">
+              Explore all <i class="fa-regular fa-arrow-right"></i>
+            </button>
+            <div class="slidercontrol">
+              <button class="arrowleft sliderarrow">
+                <i class="fa-regular fa-arrow-left"></i>
+              </button>
+              <button class="arrowright sliderarrow">
+                <i class="fa-regular fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="placecontainer">
+          <div class="placecontain">
+            <img src="./images/Bali.jpg" alt="" />
+            <div class="overlay"></div>
+            <div class="placecontent">
+              <h3 class="placename">Bali, Indonesia</h3>
+              <p class="totalplace">356 Places</p>
+              <div class="placeindi">
+                <button class="explore">
+                  Read More <i class="fa-regular fa-arrow-right"></i>
+                </button>
+                <button class="weather">
+                  <i class="fa-solid fa-sun-cloud"></i> 35&deg;
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="placecontain">
+            <img src="./images/nepal.jpeg" alt="" />
+            <div class="overlay"></div>
+            <div class="placecontent">
+              <h3 class="placename">Kathmandu, Nepal</h3>
+              <p class="totalplace">356 Places</p>
+              <div class="placeindi">
+                <button class="readmore">
+                  Read More <i class="fa-regular fa-arrow-right"></i>
+                </button>
+                <button class="weather">
+                  <i class="fa-solid fa-sun-cloud"></i> 35&deg;
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="placecontain">
+            <img src="./images/dubai.jpg" alt="" />
+            <div class="overlay"></div>
+            <div class="placecontent">
+              <h3 class="placename">Dubai, Abu Dhabi</h3>
+              <p class="totalplace">356 Places</p>
+              <div class="placeindi">
+                <button class="readmore">
+                  Read More <i class="fa-regular fa-arrow-right"></i>
+                </button>
+                <button class="weather">
+                  <i class="fa-solid fa-sun-cloud"></i> 35&deg;
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="placecontain">
+            <img src="./images/rome.jpg" height="100%" alt="" />
+            <div class="overlay"></div>
+            <div class="placecontent">
+              <h3 class="placename">Rome, Italy</h3>
+              <p class="totalplace">356 Places</p>
+              <div class="placeindi">
+                <button class="readmore">
+                  Read More <i class="fa-regular fa-arrow-right"></i>
+                </button>
+                <button class="weather">
+                  <i class="fa-solid fa-sun-cloud"></i> 35&deg;
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Overview -->
+      <section class="overview">
+        <div class="flexbox">
+          <div class="flexboxcontent">
+            <h2 class="sectionheadings">
+              Your Ticket to <br />
+              Worldwide Elegance
+            </h2>
+            <p class="sectionsub overviewsub">
+              Learn how to offset your adventure's carbon foorprint and support
+              sustainable initiatives led by our operators Worldwide.
+            </p>
+            <button class="explore">
+              Read More <i class="fa-regular fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="imagegrid">
+            <div class="firstcol">
+              <div class="ffcol gridimage">
+                <img src="./images/nepal.jpeg" alt="">
+              </div>
+            </div>
+
+            <div class="secondcol">
+              <div class="fscol gridimage">
+                <img src="./images/Bali.jpg" alt="">
+              </div>
+              <div class="sscol gridimage">
+                <img src="./images/dubai.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="thirdcol">
+              <div class="ftcol gridimage">
+                <img src="./images/Bali.jpg" alt="">
+              </div>
+              <div class="stcol gridimage">
+                <img src="./images/dubai.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Overview -->
+      <!-- Popular Place -->
+      <section class="popularplace">
+
+      </section>
+       <!-- Popular Place -->
+    </main>
+  </body>
 </html>
